@@ -8,53 +8,52 @@
     <script src="js/scripts.js">  </script>
   </head>
   <body>
-    <h1></h1>
-    <p id="newgame">
-      <a href="#">New Game</a>
-    </p>
     <div class="container">
-      <h1 class="by-info">
-        Pig Dice game for 2 players
+      <h1 class="bg-success">
+          Pig Dice game for 2
       </h1>
       <div class="row">
         <div class="col-md-4">
-          <h2 id="player-one">
-            Player 1
-          </h2>
-          <p id="total-score-1"></p>
+          <div class="">
+            <h2 id="player-one">
+              Player 1
+            </h2>
+            <p id="total-score-1"> score =  </p>
+          </div>
+
           <div class="current-score">
             <h2>
                Current score
             </h2>
-            <p id="current-score-1"></p>
+            <p id="current-score-1">Current score = </p>
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="dice">
-            <p id="dice"></p>
+            <p class="dice" id="die"></p>
           </div>
           <h2>
             <a id="roll" href="#"> ROLL</a>
           </h2>
-          <h2>
-            <a id="HOLD" href="#"> HOLD</a>
-          </h2>
         </div>
-        <div class="col-md-5">
-          <h2 id="player-two">
-            Player 2
-          </h2>
-          <p id="total-score-2"></p>
+        <div class="col-md-4">
+          <div class="">
+            <h2 id="player-two">
+              Player 2
+            </h2>
+            <p id="total-score-2">score = </p>
+          </div>
+
           <div class="current-score">
             <h2>
                Current score
             </h2>
-            <p id="current-score-2"></p>
+            <p id="current-score-2">Current score = </p>
         </div>
 
       </div>
-
+      <button type="button" id="newGame"><a href="index.html">NewGame</a></button>
     </div>
 
   </body>
