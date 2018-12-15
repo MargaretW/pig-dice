@@ -62,11 +62,6 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
-  font-size: 40px;
-  color:fuchsia;
-  font-style: oblique;
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
 }
 mark {
   color: #000;
@@ -4970,7 +4965,15 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: fuchsia;
+  font-size: 20px;
+  border: 2px solid green;
+  font-weight: 600;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  margin: 40px;
 }
 .jumbotron p {
   margin-bottom: 15px;

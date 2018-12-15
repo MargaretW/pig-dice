@@ -9,51 +9,35 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="bg-success">
-          Pig Dice game for 2
-      </h1>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="">
-            <h2 id="player-one">
-              Player 1
-            </h2>
-            <p id="total-score-1"> score =  </p>
-          </div>
+      <div class="jumbotron">
+        <h1 class="bg-success">
+            Pig Dice game for 2
+        </h1>
 
-          <div class="current-score">
+        <button type="button" id="start">PLAY</button>
+
+        <div class="row">
+          <div class="col-md-6">
             <h2>
-               Current score
+              First Player
             </h2>
-            <p id="currentScore-1">curre</p>
+            <button type="button" id="player1Roll">ROLL</button>
+            <p id="rollDice1">Die rolled is </p>
+            <p id= scoreOne>Your score is </p>
           </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="dice">
-            <p class="dice" id="die"></p>
-          </div>
-          <h2>
-            <a id="roll" href="#"> ROLL</a>
-          </h2>
-        </div>
-        <div class="col-md-4">
-          <div class="">
-            <h2 id="player-two">
-              Player 2
-            </h2>
-            <p id="total-score-2">score = </p>
-          </div>
-
-          <div class="current-score">
+          <div class="col-md-6">
             <h2>
-               Current score
+              Second Player
             </h2>
-            <p id="currentcore-2">current score = </p>
+            <button type="button" id="player2Roll">ROLL</button>
+            <p id="rollDice2">Die rolled is </p>
+            <p id= scoreTwo>Your score is </p>
+
         </div>
+        <button type="button" id="newGame"><a href="index.html">NewGame</a></button>
 
       </div>
-      <button type="button" id="newGame"><a href="index.html">NewGame</a></button>
+
     </div>
 
   </body>
