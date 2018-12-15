@@ -3,15 +3,32 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1 {
-  font-size: 40px;
-  color: ;
-}
+
 p {
   font-size: 15px;
-  font-family:
+  font-family:'Glyphicons Halflings';
 }
-#newGame{
+
+.dice {
+  border: 2px solid navy;
+  background-color: white;
+  font-size: 16px;
+  display: block;
+  padding: 20px;
+}
+
+#newGame {
+  position: relative;
+  left: 30%;
+  padding: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 12px;
+  margin: 50px;
+}
+
+#start {
   position: relative;
   left: 30%;
   padding: 30px;
