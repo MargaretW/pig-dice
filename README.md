@@ -30,7 +30,7 @@ Software used in the application include;
 First clone to your local directory to make any modifications.
 
 ## Link to preview the Game
-[Here] ()
+[Here] (https://margaretw.github.io/pig-dice/.)
 ## Support and contact details
 In case of any issues,contact me on [linkedin](https://www.linkedin.com/in/margaret-wangechi/). This can also be used in case of further contributions towards the application.
 ### License
