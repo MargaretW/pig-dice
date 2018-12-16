@@ -20,10 +20,10 @@ var rollingDice = function () {
 var winner =function(){
   if (pigDice.playerturn===1){
     if ( pigDice.currentScore >= 30){
-      alert("Player 1 is the winner");
+      alert("First Player wins");
     }else if {
       (pigDice.currentScore >=30){
-        alert("player 2 is the winner");
+        alert("Second player wins");
       }
     }
   };
@@ -36,7 +36,23 @@ $(document).ready (function (){
     // $(".row ").show()
   //});
 
+  $("button#player1Roll"). click(function(e){
 
+    e.preventDefault ();
 
+    var player1Roll = pigDice.rollDice ();
+    $("#rollDice1").text(player1Roll);
+    rollingDice();
+    $("#scoreOne").text(pigDice.currentScore)
+  });
 
+  $("button#player2Roll"). click(function(e){
+
+    e.preventDefault ();
+
+    var player2Roll = pigDice.rollDice ();
+    $("#rollDice2").text(player1Roll);
+    rollingDice();
+    $("#scoreTwo").text(pigDice.currentScore)
+  });
 });
