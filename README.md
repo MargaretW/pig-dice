@@ -16,16 +16,16 @@ The application is a game of dice. Two players exchange turns to play the game. 
 * create a [Github account](https://github.com)
 * fork the application [Here](https://github.com/MargaretW/Question-board)
 * clone to personal computer in case of contribution to it.
-section
+
 ## Known Bugs
-If there is an unaswered question,the results will return as NaN hence ensure you answer all questions.
-section
+The game does not function as expected.
 ## Technologies used
 Software used in the application include;
 * IDEs include either: Atom, VS Code, Brackets.
 * Browsers include either: Google Chrome, Mozilla Firefox.
 * JavaScript,HTML and CSS
 * basic j-query
+
 ## Usage
 First clone to your local directory to make any modifications.
 
