@@ -14,7 +14,7 @@ The application is a game of dice. Two players exchange turns to play the game. 
 
 ## Setup/Installation Requirements
 * create a [Github account](https://github.com)
-* fork the application [Here](https://github.com/MargaretW/Question-board)
+* fork the application [Here](https://github.com/MargaretW/pig-dice)
 * clone to personal computer in case of contribution to it.
 
 ## Known Bugs
