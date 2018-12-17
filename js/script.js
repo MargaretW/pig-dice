@@ -22,10 +22,21 @@ var rollingDice = function () {
 //UI
 $(document).ready (function (){
 
-  // $("button#start").click (function(event){
-    // event.preventDefault ();
-    // $(".row ").show()
-  //});
+   $("button#start").click (function(event){
+    event.preventDefault ();
+     $("#pigDice ").append('<div class="col-md-6"> ' +
+                            '<h2>First Player</h2>' +
+                            '<button type="button" id="player1Roll">ROLL</button>' +
+                            '<p id="rollDice1"> Die rolled is </p>' +
+                            '<p id= scoreOne> Your score is </p>' +
+                            '</div>' +
+                            '<div class="col-md-6">' +
+                            '<h2>Second Player</h2>' +
+                            '<button type="button" id="player2Roll">ROLL</button>' +
+                            '<p id="rollDice2"> Die rolled is </p>'+
+                           '<p id= scoreTwo> Your score is </p>' +
+                           '</div>'+
+                           '<button type="button" id="newGame"><a href="index.html">NewGame</a></button>'});
 
   $("button#player1Roll"). click(function(e){
 
