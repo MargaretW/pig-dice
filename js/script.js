@@ -35,7 +35,7 @@ $(document).ready (function (){
     e.preventDefault ();
 
     var player2Roll = pigDice.rollDice ();
-    $("#rollDice2").text(player1Roll);
+    $("#rollDice2").text(player2Roll);
     rollingDice();
     $("#scoreTwo").text(pigDice.currentScore)
   });
