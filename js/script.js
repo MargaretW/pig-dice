@@ -1,4 +1,4 @@
-$(document).ready (function (){
+
 //business logic
 var pigDice= {
   playerTurn: 1,
@@ -20,7 +20,7 @@ var rollingDice = function () {
 
 
 //UI
-
+$(document).ready (function (){
   $("button#player1Roll").click(function(e){
 
     e.preventDefault ();
