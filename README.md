@@ -5,7 +5,8 @@
 The application is a game of dice. Two players exchange turns to play the game. the purpose of this application is to gauge the students understanding on week 4 content.
 
 ## Specs
-| **behavior**                                   | **expected outcome**                      |
+|**behavior**                                    | **expected outcome**                      |
+|:-----------------------------------------------|:------------------------------------------|
 | The first player will click on the play button | the game will show on the page            |
 | The first player clicks on roll                | the die number shows                      |
 | If first player rolls a 1                      | an alert tells them to allow second player|
