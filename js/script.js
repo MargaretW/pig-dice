@@ -11,7 +11,7 @@ var pigDice= {
 var rollingDice = function () {
   var roll = pigDice.rollDice();
   if (roll ===1){
-    alert("rolled 1 player 2 turn";
+    alert("rolled 1 next player's turn");
   }else  {
     pigDice.currentScore+=roll;
   }
