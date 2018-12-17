@@ -17,16 +17,7 @@ var rollingDice = function () {
   }
 };
 
-var winner =function(){
-  if (pigDice.playerturn===1){
-    if ( pigDice.currentScore >= 30){
-      alert("First Player wins");
-    }else if {
-      (pigDice.currentScore >=30){
-        alert("Second player wins");
-      }
-    }
-  };
+
 
 //UI
 $(document).ready (function (){
