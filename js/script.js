@@ -1,16 +1,17 @@
+$(document).ready (function (){
 //business logic
 var pigDice= {
   playerTurn: 1,
   currentScore:0,
   rollDice:function() {
-    return math.ceil(math.random()* 6);
+    return Math.floor(Math.random()* 6) + 1;
   }
 };
 
 var rollingDice = function () {
   var roll = pigDice.rollDice();
   if (roll ===1){
-    return pigDice.currentScore = 0 +"next player";
+    alert("rolled 1 next player's turn");
   }else  {
     pigDice.currentScore+=roll;
   }
@@ -19,7 +20,7 @@ var rollingDice = function () {
 
 
 //UI
-$(document).ready (function (){
+
   $("button#player1Roll").click(function(e){
 
     e.preventDefault ();
@@ -35,7 +36,7 @@ $(document).ready (function (){
     e.preventDefault ();
 
     var player2Roll = pigDice.rollDice ();
-    $("#rollDice2").text(player1Roll);
+    $("#rollDice2").text(player2Roll);
     rollingDice();
     $("#scoreTwo").text(pigDice.currentScore)
   });
