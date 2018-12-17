@@ -1,9 +1,10 @@
+$(document).ready (function (){
 //business logic
 var pigDice= {
   playerTurn: 1,
   currentScore:0,
   rollDice:function() {
-    return math.ceil(math.random()* 6);
+    return Math.floor(Math.random()* 6) + 1;
   }
 };
 
@@ -19,7 +20,7 @@ var rollingDice = function () {
 
 
 //UI
-$(document).ready (function (){
+
   $("button#player1Roll").click(function(e){
 
     e.preventDefault ();
