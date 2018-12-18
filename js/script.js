@@ -1,4 +1,4 @@
-$(document).ready (function (){
+
 //business logic
 var pigDice= {
   playerTurn: 1,
@@ -12,6 +12,7 @@ var rollingDice = function () {
   var roll = pigDice.rollDice();
   if (roll ===1){
     alert("rolled 1 next player's turn");
+    pigDice.currentScore= 0
   }else  {
     pigDice.currentScore+=roll;
   }
@@ -20,7 +21,7 @@ var rollingDice = function () {
 
 
 //UI
-
+$(document).ready (function (){
   $("button#player1Roll").click(function(e){
 
     e.preventDefault ();
