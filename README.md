@@ -11,7 +11,7 @@ The application is a game of dice. Two players exchange turns to play the game. 
 | The first player clicks on roll                | the die number shows                      |
 | If first player rolls a 1                      | an alert tells them to allow second player|
 | Second player will click on roll               | the process repeats itself                |
-| winner is first to reach a score of 30         | an alert displays to identify winner      |
+| winner is first to reach a score of 100        | an alert displays to identify winner      |
 
 ## Setup/Installation Requirements
 * create a [Github account](https://github.com)
