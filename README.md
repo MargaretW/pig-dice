@@ -19,7 +19,8 @@ The application is a game of dice. Two players exchange turns to play the game. 
 * clone to personal computer in case of contribution to it.
 
 ## Known Bugs
-The game does not function as expected.
+No known bugs
+
 ## Technologies used
 Software used in the application include;
 * IDEs include either: Atom, VS Code, Brackets.
